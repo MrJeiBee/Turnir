@@ -111,12 +111,10 @@ main{
   margin: 0 -1%;
 }
 .About{
+  margin-top: -1%;
   width: 100%;
   padding: 2% 0%;
   background-color:#0a0b18;
-  position: relative;
-  bottom: 20px;
-  z-index: -1;
   display: flex;
   flex-wrap: wrap;
   height: 100vh;
@@ -127,6 +125,14 @@ main{
   flex-direction: row;
   justify-content: space-around;
 
+}
+.black{
+  width: 100%;
+  height: 2vh;
+  background-color: #0a0b18;
+  position: relative;
+  z-index: -1;
+  bottom: 25px;
 }
 .imglight{
   margin: 0 -3%;
@@ -210,9 +216,6 @@ main{
   width: 100%;
   padding: 2% 0%;
   background-color: #0a0b18;
-  position: relative;
-  bottom: 20px;
-  z-index: -1;
   display: flex;
   height: 80vh;
   justify-content: flex-start;
@@ -231,6 +234,9 @@ main{
   background-size: 100%;
   background-position: bottom;
   background-position-y: 900px;
+}
+.reqivipments{
+  background-color: #0a0b18;
 }
 .timetable{
   display: flex;
@@ -484,6 +490,12 @@ select{
     content: '';
     top: -8px;
   }
+  .black{
+    bottom: 22px;
+  }
+  .About{
+    margin-top: -3%;
+  }
   .menu__btn > span::after {
     content: '';
     top: 8px;
@@ -635,11 +647,30 @@ select{
     width: 90%;
   }
 }
-@media (max-width:320px){
+@media (max-width: 360px){
+  .grey, .bgimage{
+    height: 50vh;
+  }
+  .phonkdrift{
+    text-align: left;
+  }
+  .phonkdrift>p{
+    text-align: left;
+  }
+  .phonkdrift>img{
+    width: 90%;
+    margin: 0 -3%;
+  }
+  .bgimage{
+    background-position: bottom;
+    background-size: 130%;
+  }
   .firsts, .seconds{
     width: 100%;
   }
-
+  .textheader>img{
+    display: none;
+  }
   .sheudle{
     height: auto;
   }
@@ -710,5 +741,82 @@ select{
   }
   .firstf, .secondf{
     width: 90%;
+  }
+  .sheudle{
+    margin-bottom: 5%;
+  }
+  .About{
+    margin-top: -7%;
+    align-items: flex-start;
+    height: 110vh;
+  }
+  .whatabout{
+    flex-direction: row;
+  }
+  .imglight{
+    width: 40%;
+  }
+  .textabout>h2{
+    position: relative;
+    width: 140%;
+    right: 50px ;
+  }
+  .imglight>img{
+    width: 100%;
+  }
+  .point>p{
+    font-size: 15px;
+  }
+  .yellowtable{
+    width: 80%;
+  }
+  .timetable{
+    width: 100%;
+    align-items: center;
+  }
+  .firsts, .seconds{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .tableqestion{
+    align-items: flex-start;
+  }
+  .cardgallery{
+    align-items: center;
+  }
+  #arrow, #arrow__right{
+    width: 10%;
+    height: 3vh;
+  }
+  .point>img{
+    width: 50px;
+  }
+  .textabout>p{
+    font-size: 15px;
+  }
+  .reqivipments{
+    background-size: 200% 110vh;
+    height: 66vh;
+  }
+  .gallery{
+    background-size: 200% 100vh;
+  }
+  .last{
+    background-size: 200% 150vh;
+  }
+  .point img{
+    margin-inline: 15px ;
+    vertical-align: middle;
+  }
+  .circle{
+    height: 21vh;
+  }
+  .row>img{
+    width: 6%;
+  }
+  .seconf{
+    padding-left: 5%;
   }
 }
