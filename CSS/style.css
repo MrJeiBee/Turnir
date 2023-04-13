@@ -306,18 +306,124 @@ main{
   width: 25%;
   height: 35vh;
 }
+.return{
+  width: 100%;
+  padding: 2% 0%;
+  background-color: #0a0b18;
+  position: relative;
+  bottom: 20px;
+  z-index: -1;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.return>h2{
+  margin-top: 5%;
+  margin-bottom: 2%;
+}
+h2{
+  font-size: 4vh;
+  font-weight: 400;
+}
+h3{
+  font-size: 3vh;
+  font-weight: 300;
+}
+input, select{
+  border: 2px solid #f4bd51;
+  background-color: transparent;
+}
+::placeholder{
+  color: rgba(255, 255, 255, 0.884);
+  position: relative;
+  left: 5px;
+}
+.firste, .seconde{
+  width: 50%;
+  margin-bottom: 5% ;
+}
+.galleryinput{
+  display: flex;
+  flex-direction: row;
+}
+.galleryinput input{
+  width: 90%;
+  height: 4vh;
+  margin-bottom: 0%;
+  margin-top: 5%;
+  border: 2px solid #f4bd51;  
+}
+.input{
+  text-align: center;
+  padding: 5%;
+  border: 2px solid #f4bd51;
+  box-shadow: 0 0  50px 1px #f4be5180;
+}
+select{
+  width: 96%;
+  height: 4vh;
+  padding: 0 0.5%;
+}
+.contact{
+  width: 96%;
+  height: auto;
+  margin: 5% 0;
+}
+.gr{
+  height: 4vh;
+  width: 25%;
+  background: rgb(194,152,70);
+  background: -moz-linear-gradient(180deg, rgba(194,152,70,1) 0%, rgba(33,33,60,1) 100%);
+  background: -webkit-linear-gradient(180deg, rgba(194,152,70,1) 0%, rgba(33,33,60,1) 100%);
+  background: linear-gradient(180deg, rgba(194,152,70,1) 0%, rgba(33,33,60,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#c29846",endColorstr="#21213c",GradientType=1);
+  border: none;
+  border-radius: 50px;
+}
 .last{
-  margin-top: -3%;
+  margin-top: -4%;
   background-image: url(../Images/Group\ 34.png);
   background-repeat: no-repeat;
   background-position: top;
   display: flex;
-  background-size: 100% 100vh;
+  flex-direction: row;
+  background-size: 100% 200vh;
   width: 100%;
-  height: 60vh;
+  height: 70vh;
   justify-content: center;
-  flex-direction: column;
   align-items: center;
+}
+.firstf, .secondf{
+  width: 50%;
+}
+.firstf{
+  display: flex;
+  flex-direction: column;
+}
+.firstf>img{
+  width: 40%;
+}
+#bigimage{
+  width: 90%;
+}
+.row{
+  display: flex;
+  flex-direction: row;
+  margin-top: 5%;
+}
+.row>img{
+  width: 4%;
+  margin-right: 3%;
+}
+.text{
+  height: 0;
+  text-align: center;
+  position: relative;
+  top: -25px;
+  color: rgb(255, 255, 255);
 }
 @media (max-width: 768px) {
     #menu__toggle {
