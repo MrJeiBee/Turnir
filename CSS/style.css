@@ -309,11 +309,13 @@ main{
   width: 25%;
   height: 35vh;
 }
+.gallery{
+  background-color: #0a0b18;
+}
 .return{
   width: 100%;
   padding: 2% 0%;
   background-color: #0a0b18;
-  position: relative;
   bottom: 20px;
   z-index: -1;
   display: flex;
@@ -322,6 +324,9 @@ main{
   height: 100vh;
   align-items: center;
   flex-wrap: wrap;
+}
+#black{
+  background-color: #0a0b18;
 }
 .return>h2{
   margin-top: 5%;
@@ -338,11 +343,10 @@ h3{
 input, select{
   border: 2px solid #f4bd51;
   background-color: transparent;
+  padding: 0 5px;
 }
 ::placeholder{
   color: rgba(255, 255, 255, 0.884);
-  position: relative;
-  left: 5px;
 }
 .firste, .seconde{
   width: 50%;
@@ -600,7 +604,7 @@ select{
   }
   #arrow, #arrow__right{
     width: 10%;
-    height: 10vh;
+    height: 5vh;
   }
   #hide{
     display: none;
@@ -622,5 +626,89 @@ select{
     flex-direction: column;
     height: 50vh;
     background-size: 100% 100vh;
+  }
+  .textabout{
+    width: 90%;
+    text-align: center;
+  }
+  .textabout>img{
+    width: 90%;
+  }
+}
+@media (max-width:320px){
+  .firsts, .seconds{
+    width: 100%;
+  }
+
+  .sheudle{
+    height: auto;
+  }
+  .timetable{
+    flex-direction: column;
+  }
+  .cardgallery{
+    flex-direction: column;
+  }
+  .adresses{
+    margin-top: -10%;
+    height: 250vh;
+    background-position-y: 2832px;
+  }
+  .card{
+    width: 90%;
+  }
+  .galleryinput{
+    flex-direction: column;
+    align-items: center;
+  }
+  .firste, .seconde{
+    width: 98%;
+  }
+  input{
+    width: 100%;
+  }
+  .firste{
+    margin: 0;
+  }
+  .gr{
+    width: 50%;
+  }
+  .circle{
+    width: 30%;
+    height: 15vh;
+  }
+  .sheudle{
+    z-index: 0;
+  }
+  h2{
+    font-size: 3vh;
+    font-weight: 200;
+  }
+  h3{
+    font-size: 2vh;
+    font-weight: 100;
+  }
+  .reqivipments{
+    background-color: #0a0b18;
+    flex-direction: column;
+    height: 70vh;
+    background-size: 100% 110vh;
+  }
+  .firstt{
+    margin: 0;
+  }
+  .yellowtable{
+    width: 100%;
+  }
+  .circle{
+    width: 70%;
+    height: 18vh;
+  }
+  .imgese>img{
+    width: 80%;
+    height: 15vh;
+  }
+  .firstf, .secondf{
+    width: 90%;
   }
 }
