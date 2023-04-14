@@ -1,3 +1,16 @@
+html{
+
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+body
+{
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+}
 .hamburger-menu>input{
     display: none;
 }
@@ -594,7 +607,7 @@ select{
     border-radius: 1000px;
     background-color: white;
     width: 40%;
-    height: 27vh;
+    height: 25vh;
     display: flex;
     text-align: center;
     align-items: center;
@@ -844,7 +857,7 @@ select{
     vertical-align: middle;
   }
   .circle{
-    height: 21vh;
+    height: 19vh;
   }
   .row>img{
     width: 6%;
@@ -852,17 +865,5 @@ select{
   .seconf{
     padding-left: 5%;
   }
-  html{
-
-    width: 100%;
-    max-width: 100%;
-    overflow-x: hidden;
-}
-
-  body
-  {
-    width: 100%;
-    max-width: 100%;
-    overflow-x: hidden;
-  }
+  
 }
